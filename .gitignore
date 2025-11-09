@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Excluded project folders
+DreamScale2/
+DreamScalee/
+DreamScalee2/
+
+# Cleanup scripts
+remove-large-file.ps1
+remove-from-history.ps1
+remove-api-keys.ps1
+remove-api-keys-simple.ps1
+start-fresh.ps1
+
+# Git backup folders
+.git.backup.*/
